@@ -11,6 +11,13 @@
 # sort the result (alphabetically), and write it to the screen.
 # If the two lists contain the same item, only show it once!
 # Lastly, display each item in the list prepended with "buy ".
+christian_list =["milk", "eggs", "bacon", "apples"]
+josh_list = ["beer", "cookies", "apples"]
+
+roomie_list = christian_list + josh_list
+puts roomie_list.count
+
+puts roomie_list.sort.uniq
 
 # HINTS
 # Learn to read the documentation!
