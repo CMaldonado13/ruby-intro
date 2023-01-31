@@ -8,6 +8,34 @@
 # screen.
 ranks = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
+cards = []
+hands = []
+cardindex = 0
+for rank in ranks
+for suit in suits
+    cards[cardindex] = "#{rank} of #{suit}"
+    cardindex = cardindex + 1
+    puts "#{rank} of #{suit}"
+end
+end
+loop do
+    if index == 4
+        break
+    end
+    puts "tacos!"
+    puts "#{tacos[index]}"
+index = index + 1
+  end
+card1 = rand(0..51)
+card2 = rand(0..51)
+if card1 == card2 
+    card2 = rand(0..51)
+else 
+    
+end
+puts "You drew the #{cards[card1]}, #{cards[card2]}"
+
+
 
 # Sample output:
 # 2 of Clubs
